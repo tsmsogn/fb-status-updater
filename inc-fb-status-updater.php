@@ -137,7 +137,7 @@ function fbStatusUpdater($post_ID, $cron = false) {
 	} else {
 		$postUrl = get_bloginfo("wpurl")."/?p=".$post_ID;
 	}
-	$postTitle = $post->post_title;
+	$postTitle = get_the_title($post->ID);
 	if (function_exists(strip_shortcodes)) {
 		$postTitle = strip_shortcodes($postTitle);
 	}

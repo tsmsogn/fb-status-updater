@@ -4,7 +4,7 @@ Plugin Name: Status Updater
 Plugin URI: http://www.francesco-castaldo.com/plugins-and-widgets/fb-status-updater/
 Description: Shares wordpress posts on your Facebook profile and/or pages and on Twitter  | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8255191" target="_blank">Donate</a>
 Author: Francesco Castaldo
-Version: 1.9.2
+Version: 1.9.3
 Author URI: http://www.francesco-castaldo.com/
 */
 
@@ -33,7 +33,7 @@ ignore_user_abort(true);
 // what is this?
 //ini_set('memory_limit', '4000M');
 
-$fbStatusUpdaterVersion = "1.9.2";
+$fbStatusUpdaterVersion = "1.9.3";
 $fbStatusPreventDouble = null; // prevents double execution of the save_post hook
 
 $fbStatusUpdatePath = __FILE__;

@@ -16,6 +16,8 @@ Instead of manually update your **Facebook status** / **Fan Page Wall** / **Twit
     
     
 == Changelog ==   
+= 1.9.3 =    
+* to use twitter 1.1 API    
 = 1.9.1 =    
 * minor bug fixes    
 = 1.9 =    
