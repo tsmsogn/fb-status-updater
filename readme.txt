@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: facebook, status, wall, update, social networks, marketing, social network marketing, twitter    
 Requires at least: 2.5.1    
 Tested up to: 3.0.4    
-Stable tag: 1.9.1    
+Stable tag: 1.9.4    
 
 If you have a Facebook profile or page or a Twitter account, this plugin is what you need to connect them with your blog! When you publish a new wordpress article, the Status Updater plugin will share on a Facebook profile and/or pages wall a new status or link and a new tweet on Twitter.
 
@@ -16,6 +16,8 @@ Instead of manually update your **Facebook status** / **Fan Page Wall** / **Twit
     
     
 == Changelog ==   
+= 1.9.4 =    
+* status not updating with newer than wordpress 3.6 bug solved    
 = 1.9.3 =    
 * to use twitter 1.1 API    
 = 1.9.1 =    

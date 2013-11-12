@@ -4,7 +4,7 @@ Plugin Name: Status Updater
 Plugin URI: http://www.francesco-castaldo.com/plugins-and-widgets/fb-status-updater/
 Description: Shares wordpress posts on your Facebook profile and/or pages and on Twitter  | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8255191" target="_blank">Donate</a>
 Author: Francesco Castaldo
-Version: 1.9.3
+Version: 1.9.4
 Author URI: http://www.francesco-castaldo.com/
 */
 
@@ -75,7 +75,7 @@ add_action('wp_footer','fbStatusComments', 0);
 add_action(STATUS_UPDATER_CRON, 'fbStatusCron');
 
 // add the advanced box to the post form
-add_action('save_post', 'fbStatusProcessMetaFields', 0);
+add_action('pre_post_update', 'fbStatusProcessMetaFields', 0);
 
 // add the "send to social networks" action
 add_action("publish_post", "fbStatusUpdater", 15);
